@@ -1,5 +1,5 @@
 import { useAuth } from "@clerk/clerk-react"
-import { LoaderPage } from "../Routes/loader-page"
+import { LoaderPage } from "../routes/loader-page"
 import { Navigate } from "react-router-dom"
 
 const ProtectedRoutes = ({ children }: { children: React.ReactNode }) => {

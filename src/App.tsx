@@ -6,10 +6,10 @@ import { PublicLayout } from "@/layouts/public-layout"
 import AuthenticationLayout from "@/layouts/auth-layout"
 import { MainLayout } from "@/layouts/main-layout"
 
-import HomePage from "./Routes/home"
+import HomePage from "./routes/home"
 
-import { SignInPage } from "./Routes/sign-in"
-import { SignUpPage } from "./Routes/sign-up"
+import { SignInPage } from "./routes/sign-in"
+import { SignUpPage } from "./routes/sign-up"
 import ProtectedRoutes from "./layouts/protected-routes"
 
 
