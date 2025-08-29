@@ -1,16 +1,16 @@
 import Header from "@/components/header";
-import Footer from "@/components/footer";
 import { Outlet } from "react-router-dom";
 import { Container } from "@/components/container";
+import { Footer } from "@/components/footer";
 
 export const MainLayout = () => {  
     return(
-        <div className="w-full">   
+        <div className="w-full ">   
             {/* handler to store user data */}
             <Header />
 
             <Container className="flex-grow">
-                <main className="flex-grow">
+                <main className="flex-grow ">
                     <Outlet />
                 </main>
             </Container>
